@@ -1,0 +1,10 @@
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\bin\Debug\DnD_Creator_Characters.exe.config
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\bin\Debug\DnD_Creator_Characters.exe
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\bin\Debug\DnD_Creator_Characters.pdb
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.csproj.AssemblyReference.cache
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.Form1.resources
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.Properties.Resources.resources
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.csproj.GenerateResource.cache
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.csproj.CoreCompileInputs.cache
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.exe
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.pdb
