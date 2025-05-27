@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json.Linq;
 
 namespace DnD_Creator_Characters
 {
@@ -20,11 +21,44 @@ namespace DnD_Creator_Characters
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Получить текст из TextBox
-            string inputText = textBox1.Text;
+            string filePath = textBox2.Text; // Укажите путь к вашему JSON-файлу
+            string customText = textBox1.Text; // Текст для вставки
+            int insertPosition = 333; // Позиция для вставки (начинается с 0)
 
-            // Вывести результат (например, в MessageBox)
-            MessageBox.Show("Введенный текст: " + inputText);
+            try
+            {
+                // Читаем содержимое файла
+                string content = File.ReadAllText(filePath);
+
+                // Проверяем, не добавлен ли текст ранее
+                if (!content.Contains(customText))
+                {
+                    // Если позиция вставки больше длины контента, добавляем в конец
+                    if (insertPosition > content.Length)
+                    {
+                        insertPosition = content.Length;
+                    }
+
+                    // Вставляем текст
+                    content = content.Insert(insertPosition, customText);
+
+                    // Записываем изменения обратно в файл
+                    File.WriteAllText(filePath, content);
+                    MessageBox.Show("Персонаж создан");
+                }
+                else
+                {
+                    Console.WriteLine("Текст уже был добавлен ранее.");
+                }
+            }
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine("Файл не найден!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)

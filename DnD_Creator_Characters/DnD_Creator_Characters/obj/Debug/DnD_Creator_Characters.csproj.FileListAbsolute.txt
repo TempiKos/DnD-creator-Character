@@ -8,3 +8,6 @@ G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD
 G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.csproj.CoreCompileInputs.cache
 G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.exe
 G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Creator_Characters.pdb
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\bin\Debug\Newtonsoft.Json.dll
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\bin\Debug\Newtonsoft.Json.xml
+G:\Проекты C#\DnD_Creator_Characters\DnD_Creator_Characters\obj\Debug\DnD_Crea.AE5708CA.Up2Date
